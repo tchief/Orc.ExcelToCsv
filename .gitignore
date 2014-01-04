@@ -61,6 +61,7 @@ publish
 [Bb]in
 [Oo]bj
 sql
+[Ll]ib/
 TestResults
 *.Cache
 ClientBin

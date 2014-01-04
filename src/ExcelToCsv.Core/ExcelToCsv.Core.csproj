@@ -19,7 +19,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\..\output\ExcelToCsv.Core\</OutputPath>
+    <OutputPath>..\..\output\debug\NET40\ExcelToCsv.Core\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -27,11 +27,11 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>..\..\output\ExcelToCsv.Core\</OutputPath>
+    <OutputPath>..\..\output\release\NET40\ExcelToCsv.Core\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>..\..\output\ExcelToCsv.Core\ExcelToCsv.Core.XML</DocumentationFile>
+    <DocumentationFile>..\..\output\release\NET40\ExcelToCsv.Core\ExcelToCsv.Core.XML</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="CsvHelper">

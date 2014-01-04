@@ -18,7 +18,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\..\output\ExcelToCsv.Interfaces\</OutputPath>
+    <OutputPath>..\..\output\debug\NET40\ExcelToCsv.Interfaces\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -26,11 +26,11 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>..\..\output\ExcelToCsv.Interfaces\</OutputPath>
+    <OutputPath>..\..\output\release\NET40\ExcelToCsv.Interfaces\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>..\..\output\ExcelToCsv.Interfaces\ExcelToCsv.Interfaces.XML</DocumentationFile>
+    <DocumentationFile>..\..\output\release\NET40\ExcelToCsv.Interfaces\ExcelToCsv.Interfaces.XML</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
