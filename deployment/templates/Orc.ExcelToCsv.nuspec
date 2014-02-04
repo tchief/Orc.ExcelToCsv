@@ -16,5 +16,6 @@
 	<tags>csv excel</tags>
 	<language>en-US</language>
 	<projectUrl>https://github.com/Orcomp/Orc.ExcelToCsv</projectUrl>
+	@dependencies@
   </metadata>
 </package>
